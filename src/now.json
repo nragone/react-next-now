@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "Web App",
+  "alias": ["alias.domain"],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next"
+    }
+  ]
+}
